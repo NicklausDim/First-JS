@@ -14,9 +14,11 @@ alert('Lets play a game...Can you guess my first name?');
 
 alert('I am gonna give you the first 3 letters!');
 
-alert('First letter is ' + fName.substring(0,1));
-alert('Second letter is ' + fName.substring(1,2));
-alert('Third letter is ' + fName.substring(2,3));
+
+
+alert('First letter is ' + fName.substring(0,1).toUpperCase());
+alert('Second letter is ' + fName.substring(1,2).toUpperCase());
+alert('Third letter is ' + fName.substring(2,3).toUpperCase());
 prompt ('Have you guessed it yet?');
 alert('Yes, it is ' + fName.toUpperCase() + ' too! \nCan you believe it?');
 
